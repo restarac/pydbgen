@@ -176,7 +176,7 @@ class pydb:
 
         num = int(num)
         fake = self.fake
-        fake.seed(self.seed)
+        Faker.seed(self.seed)
 
         func_lookup = {
             "name": fake.name,
